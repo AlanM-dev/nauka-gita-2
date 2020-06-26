@@ -20,7 +20,8 @@ html, body {
     margin-bottom: 0;
     display: -ms-flexbox;
     display: flex;
-    justify-content: center; /* flex dodany na potrzeby jsona */
+    -ms-flex-pack: center;
+        justify-content: center; /* flex dodany na potrzeby jsona */
 }
 
 .page-subtitle {
