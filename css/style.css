@@ -12,12 +12,14 @@ html, body {
     max-width: 1140px;
     padding: 0 20px;
     margin: 0 auto;
-    
+
 }
 
 .page-title {
     font-size: 40px;
     margin-bottom: 0;
+    display: flex;
+    justify-content: center; /* flex dodany na potrzeby jsona */
 }
 
 .page-subtitle {
@@ -25,3 +27,4 @@ html, body {
     margin: 0;
     font-style: italic;
 }
+
